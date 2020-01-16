@@ -330,6 +330,13 @@
 	moduleselect_icon = "engineer"
 	magpulsing = TRUE
 	hat_offset = -4
+	
+/obj/item/robot_module/engineering/respawn_consumable(mob/living/silicon/robot/R, coeff = 1)
+	..()
+	var/obj/item/lightreplacer/LR = locate(/obj/item/lightreplacer) in basic_modules
+	if(LR)
+		for(var/i in 1 to coeff)
+			LR.Charge(R)
 
 /obj/item/robot_module/security
 	name = "Security"

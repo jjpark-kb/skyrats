@@ -309,6 +309,7 @@
 		/obj/item/crowbar/cyborg,
 		/obj/item/wirecutters/cyborg,
 		/obj/item/multitool/cyborg,
+		/obj/item/lightreplacer/cyborg,
 		/obj/item/t_scanner,
 		/obj/item/analyzer,
 		/obj/item/geiger_counter/cyborg,
